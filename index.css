@@ -7,3 +7,21 @@ input {
   padding: 5px;
   width: 200px;
 }
+
+body {
+  font-family: Arial, sans-serif;
+
+  .caja {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 1150px; /* Ajusta el ancho de la caja según sea necesario */
+    display: flex; /* Usamos flexbox para alinear elementos horizontalmente */
+    flex-wrap: wrap; /* Permitimos que los elementos se envuelvan si no caben en una sola fila */
+    gap: 10px; /* Agrega un espacio entre los elementos */
+  }
+
+  .caja div {
+    display: flex; /* Alineamos los elementos de cada fila horizontalmente */
+    align-items: center; /* Centramos verticalmente los elementos */
+  }
+}
